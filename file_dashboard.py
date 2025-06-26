@@ -42,3 +42,4 @@ if uploaded_file:
             st.text_area("Content", text, height=300)
         except Exception as e:
             st.error(f"❌ Error reading Word file: {e}")
+            # Trigger rebuild
